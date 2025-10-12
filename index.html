@@ -14,8 +14,30 @@
     .brand{display:flex;align-items:center;gap:10px}
     .brand img{height:40px}
     nav a{margin-left:16px;color:var(--coastal);text-decoration:none;font-weight:700}
-    .hero{display:grid;place-items:center;min-height:60vh;background:var(--driftwood);color:#111;text-align:center;padding:32px}
-    .hero .logo{max-width:360px;width:60%;height:auto;margin:8px auto 18px;display:block}
+    .hero{
+  min-height:90vh;
+  background: url('images/logo-main-writing.png') center/cover no-repeat;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:#111;
+  padding:60px 20px;
+}
+
+    .hero{
+  min-height:90vh;
+  background: url('images/logo-main-writing.png') center/cover no-repeat;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:#111;
+  padding:60px 20px;
+}
+
     .hero h1{font-size:clamp(28px,5vw,52px);margin:0 0 8px}
     .hero p{font-size:clamp(18px,2.6vw,26px);margin:0 0 18px;opacity:.95}
     .cta{background:var(--coastal);color:#fff;border:0;padding:12px 26px;border-radius:14px;cursor:pointer;text-decoration:none;display:inline-block;font-weight:700;letter-spacing:.5px}
@@ -47,7 +69,6 @@
 
   <section class="hero">
     <div>
-      <img class="logo" src="images/logo-main-writing.png" alt="Koa Longboards">
       <h1>Welcome to the Beaches...</h1>
       <p>Created with love, designed that last.</p>
       <a class="cta" href="#shop">SHOP</a>
